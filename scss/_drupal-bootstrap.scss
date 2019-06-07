@@ -16,51 +16,101 @@
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
-ol, ul {
-  padding-left: 1.5em;
-  .popover &:last-child {
-    margin-bottom: 0;
-  }
+ol,
+ul {
+	padding-left: 1.5em;
+
+	.popover &:last-child {
+		margin-bottom: 0;
+	}
 }
 
 // Page header.
 .page-header {
-  margin-top: 0;
+  	margin-top: 0;
 }
 
 // Footer.
 .footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
+	  margin-top: 45px;
+	  padding-top: 35px;
+	  padding-bottom: 36px;
+	  border-top: 1px solid #E5E5E5;
 }
 
 // Paragraphs.
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
-  margin-bottom: 0;
+  	margin-bottom: 0;
 }
 
 // Help region.
 .region-help {
-  > .glyphicon {
-    font-size: $font-size-large;
-    float: left;
-    margin: -0.05em 0.5em 0 0;
-  }
-  .block {
-    overflow: hidden;
-  }
+	>.glyphicon {
+		font-size: $font-size-large;
+		float: left;
+		margin: -0.05em 0.5em 0 0;
+	}
+
+	.block {
+		overflow: hidden;
+	}
 }
 
-.help-block, .control-group .help-inline {
-  color: $gray-light;
-  font-size: 12px;
-  margin: 5px 0 10px;
-  padding: 0;
-  &:first-child {
-    margin-top: 0;
-  }
+.help-block,
+.control-group .help-inline {
+	color: $gray-light;
+	font-size: 12px;
+	margin: 5px 0 10px;
+	padding: 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.nav-tabs {
+	border-bottom: 0px;
+	display: inline-block;
+	float: right;
+
+	> li {
+		float: left;
+		position: relative;
+		background: #eee;
+		margin-bottom: 10px;
+
+		&.active {
+			background-color: grey;
+
+			> a {
+				color: white;
+				background: transparent;
+				border: 1px solid transparent;
+			}
+		}
+		&:hover {
+			background-color: #f8f8f8;
+
+			a:hover {
+				background-color: transparent;
+				border-color: transparent;
+			}
+		}
+		&:first-child {
+			border-radius: 5px 0 0 5px;
+		}
+		&:last-child {
+			border-radius: 0 5px 5px 0;
+		}
+	}
+}
+
+.breadcrumb {
+	> li + li:before {
+	    padding: 0 5px;
+	    color: #777777;
+	    content: "» ";
+	}
 }

@@ -2,4 +2,4 @@
 
 bootstrap_rubik.settings:
   type: theme_settings
-  label: 'bootstrap_rubik settings'
+  label: 'Bootstrap Rubik settings'
