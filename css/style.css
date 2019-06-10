@@ -10066,40 +10066,45 @@ p:last-child,
 }
 
 /* line 101, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+.nav-tabs > li > a {
+  color: #333333;
+}
+
+/* line 104, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-/* line 104, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 107, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 111, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 114, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #777777;
   content: "» ";
 }
 
-/* line 118, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 121, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .copyright {
   text-align: center;
 }
 
-/* line 122, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 125, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .pane-menu-menu-footer-links {
   text-align: center;
 }
 
-/* line 125, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 128, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 .pane-menu-menu-footer-links .menu li {
   display: inline-block;
   margin-left: 0;
 }
 
 /****** MAIN MENU ******/
-/* line 133, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 136, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 {
   position: static;
   margin-top: 1em;
@@ -10110,7 +10115,7 @@ p:last-child,
 }
 
 @media (min-width: 718px) {
-  /* line 133, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+  /* line 136, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
   #block-superfish-1 {
     display: table;
     margin: 0 auto;
@@ -10118,7 +10123,7 @@ p:last-child,
   }
 }
 
-/* line 147, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 150, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1.sticky-menu {
   position: fixed;
   top: 0;
@@ -10131,13 +10136,13 @@ p:last-child,
 }
 
 @media (min-width: 718px) {
-  /* line 147, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+  /* line 150, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
   #block-superfish-1.sticky-menu {
     padding-bottom: 0;
   }
 }
 
-/* line 161, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 164, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1.sticky-menu .block-content {
   display: inline-block;
   width: 100%;
@@ -10146,14 +10151,14 @@ p:last-child,
 }
 
 @media (min-width: 718px) {
-  /* line 161, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+  /* line 164, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
   #block-superfish-1.sticky-menu .block-content {
     width: auto;
     padding: 0 0 0.5em 0;
   }
 }
 
-/* line 174, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 177, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 .block-content,
 #block-superfish-1.sticky-menu .block-content {
   display: inline-block;
@@ -10161,30 +10166,30 @@ p:last-child,
 }
 
 @media (min-width: 718px) {
-  /* line 174, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+  /* line 177, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
   #block-superfish-1 .block-content,
   #block-superfish-1.sticky-menu .block-content {
     width: auto;
   }
 }
 
-/* line 184, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 187, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 {
   display: table;
   margin: auto;
 }
 
-/* line 189, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 192, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 > li:first-child {
   border-radius: 5px 0px 0px 5px;
 }
 
-/* line 193, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 196, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 > li:last-child {
   border-radius: 0px 5px 5px 0px;
 }
 
-/* line 198, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 201, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li {
   border-bottom: 0;
   float: left;
@@ -10192,12 +10197,12 @@ p:last-child,
   padding: 0;
 }
 
-/* line 204, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 207, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li:hover {
   background: #f8f8f8;
 }
 
-/* line 208, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 211, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li a {
   background-image: none;
   color: #333;
@@ -10209,53 +10214,53 @@ p:last-child,
   line-height: 20px;
 }
 
-/* line 218, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 221, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li a > .sf-sub-indicator {
   position: static;
   display: inline-block;
   margin-left: 0.5em;
 }
 
-/* line 226, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 229, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .sf-sub-indicator {
   -webkit-filter: invert(70%);
           filter: invert(70%);
 }
 
-/* line 230, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 233, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul {
   width: auto !important;
   overflow: visible !important;
 }
 
-/* line 234, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 237, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li {
   white-space: nowrap !important;
   background: #ebebeb;
 }
 
-/* line 238, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 241, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li:hover {
   background: white;
 }
 
-/* line 242, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 245, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li a {
   text-align: left;
 }
 
-/* line 248, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 251, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .active-trail {
   background-color: #7bc !important;
 }
 
-/* line 251, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 254, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .active-trail > a {
   color: white;
   text-shadow: #38a 0px 1px 0px;
 }
 
-/* line 258, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 261, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle {
   display: block;
   text-align: center;
@@ -10268,50 +10273,50 @@ p:last-child,
   font-weight: bold;
 }
 
-/* line 269, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 272, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle.sf-expanded {
   background-color: #7bc;
   border-radius: 10px 10px 0 0;
 }
 
-/* line 274, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 277, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle:hover {
   background-color: #7bc;
 }
 
-/* line 280, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 283, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
   font-size: 16px;
 }
 
-/* line 285, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 288, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li.active-trail {
   background-color: #00728e;
 }
 
-/* line 288, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 291, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li.active-trail > a {
   color: white;
 }
 
-/* line 293, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 296, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:last-child {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 297, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 300, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:hover {
   background-color: #9ec5d0;
 }
 
-/* line 300, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 303, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:hover > a {
   color: white;
 }
 
-/* line 305, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
+/* line 308, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li a {
   color: #00728e;
 }

@@ -98,6 +98,9 @@ p:last-child,
 				border-color: transparent;
 			}
 		}
+		> a {
+			color: $text-color;
+		}
 		&:first-child {
 			border-radius: 5px 0 0 5px;
 		}
