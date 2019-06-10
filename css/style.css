@@ -1733,13 +1733,13 @@ textarea {
 
 /* line 48, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #008081;
+  color: #77BBCF;
   text-decoration: none;
 }
 
 /* line 52, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #003435;
+  color: #419db8;
   text-decoration: underline;
 }
 
@@ -2005,13 +2005,13 @@ mark,
 
 /* line 5, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #008081;
+  color: #77BBCF;
 }
 
 /* line 8, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #004d4e;
+  color: #51a8c2;
 }
 
 /* line 5, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -2065,13 +2065,13 @@ a.text-danger:focus {
 
 /* line 5, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #008081;
+  background-color: #77BBCF;
 }
 
 /* line 8, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #004d4e;
+  background-color: #51a8c2;
 }
 
 /* line 5, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -4490,31 +4490,31 @@ fieldset[disabled] .btn-default.focus {
 /* line 71, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #008081;
-  border-color: #006768;
+  background-color: #77BBCF;
+  border-color: #64b2c8;
 }
 
 /* line 11, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #004d4e;
-  border-color: black;
+  background-color: #51a8c2;
+  border-color: #2d6d80;
 }
 
 /* line 17, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #004d4e;
-  border-color: #002a2a;
+  background-color: #51a8c2;
+  border-color: #3e97b1;
 }
 
 /* line 22, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #004d4e;
+  background-color: #51a8c2;
   background-image: none;
-  border-color: #002a2a;
+  border-color: #3e97b1;
 }
 
 /* line 30, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4523,8 +4523,8 @@ fieldset[disabled] .btn-default.focus {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #002a2a;
-  border-color: black;
+  background-color: #3e97b1;
+  border-color: #2d6d80;
 }
 
 /* line 41, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4532,13 +4532,13 @@ fieldset[disabled] .btn-default.focus {
 fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #008081;
-  border-color: #006768;
+  background-color: #77BBCF;
+  border-color: #64b2c8;
 }
 
 /* line 49, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #008081;
+  color: #77BBCF;
   background-color: #fff;
 }
 
@@ -4765,7 +4765,7 @@ fieldset[disabled] .btn-danger.focus {
 /* line 96, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
   font-weight: 400;
-  color: #008081;
+  color: #77BBCF;
   border-radius: 0;
 }
 
@@ -4783,7 +4783,7 @@ fieldset[disabled] .btn-link {
 
 /* line 115, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #003435;
+  color: #419db8;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4961,7 +4961,7 @@ tbody.collapse.in {
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #008081;
+  background-color: #77BBCF;
   outline: 0;
 }
 
@@ -5528,7 +5528,7 @@ tbody.collapse.in {
 /* line 46, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #008081;
+  border-color: #77BBCF;
 }
 
 /* line 59, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
@@ -5595,7 +5595,7 @@ tbody.collapse.in {
 /* line 131, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #008081;
+  background-color: #77BBCF;
 }
 
 /* line 144, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_navs.scss */
@@ -6451,7 +6451,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.428571429;
-  color: #008081;
+  color: #77BBCF;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -6462,7 +6462,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #003435;
+  color: #419db8;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -6490,8 +6490,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 3;
   color: #fff;
   cursor: default;
-  background-color: #008081;
-  border-color: #008081;
+  background-color: #77BBCF;
+  border-color: #77BBCF;
 }
 
 /* line 61, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6658,12 +6658,12 @@ a.label:hover, a.label:focus {
 
 /* line 48, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #008081;
+  background-color: #77BBCF;
 }
 
 /* line 7, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #004d4e;
+  background-color: #51a8c2;
 }
 
 /* line 52, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_labels.scss */
@@ -6743,7 +6743,7 @@ a.label:hover, a.label:focus {
 /* line 41, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_badges.scss */
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #008081;
+  color: #77BBCF;
   background-color: #fff;
 }
 
@@ -6860,7 +6860,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #008081;
+  border-color: #77BBCF;
 }
 
 /* line 9, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_alerts.scss */
@@ -7013,7 +7013,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #008081;
+  background-color: #77BBCF;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   transition: width 0.6s ease;
 }
@@ -7196,8 +7196,8 @@ a.thumbnail.active {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #008081;
-  border-color: #008081;
+  background-color: #77BBCF;
+  border-color: #77BBCF;
 }
 
 /* line 66, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
@@ -7213,7 +7213,7 @@ a.thumbnail.active {
 
 /* line 71, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #4efeff;
+  color: white;
 }
 
 /* line 83, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
@@ -7752,30 +7752,30 @@ button.list-group-item-danger.active:focus {
 
 /* line 257, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #008081;
+  border-color: #77BBCF;
 }
 
 /* line 6, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #008081;
-  border-color: #008081;
+  background-color: #77BBCF;
+  border-color: #77BBCF;
 }
 
 /* line 11, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #008081;
+  border-top-color: #77BBCF;
 }
 
 /* line 14, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #008081;
+  color: #77BBCF;
   background-color: #fff;
 }
 
 /* line 20, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #008081;
+  border-bottom-color: #77BBCF;
 }
 
 /* line 260, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/bootstrap/assets/stylesheets/bootstrap/_panels.scss */
@@ -9203,7 +9203,7 @@ html.js .form-item .input-group-addon .glyphicon {
 
 /* line 30, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/component/_ajax.scss */
 html.js .form-item .input-group-addon .glyphicon.glyphicon-spin {
-  color: #008081;
+  color: #77BBCF;
   opacity: 1;
 }
 
@@ -9269,7 +9269,7 @@ html.js .ajax-new-content:empty {
 /* line 10, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/component/_file.scss */
 .file > span {
   background: #fff;
-  color: #008081;
+  color: #77BBCF;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
@@ -9417,7 +9417,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
 
 /* line 45, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/component/_form.scss */
 .select-wrapper:after {
-  color: #008081;
+  color: #77BBCF;
   content: '▼';
   font-style: normal;
   font-weight: 400;
@@ -9683,7 +9683,7 @@ body.navbar-is-fixed-bottom {
 
 /* line 20, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/component/_table-drag.scss */
 .tabledrag-handle:hover, .tabledrag-handle:focus {
-  color: #008081;
+  color: #77BBCF;
 }
 
 /* line 24, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/component/_table-drag.scss */
@@ -9964,7 +9964,7 @@ body.toolbar-loading.toolbar {
 
 /* line 44, Applications/MAMP/htdocs/drupal_8/web/themes/bootstrap_rubik/scss/drupal-bootstrap/jquery-ui/_autocomplete.scss */
 .ui-autocomplete .ui-menu-item.ui-state-active, .ui-autocomplete .ui-menu-item.ui-state-focus {
-  background: #008081;
+  background: #77BBCF;
   color: #fff;
 }
 
