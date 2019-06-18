@@ -6,3 +6,13 @@
  *
  * Place your custom PHP code in this file.
  */
+
+ /**
+  * {@inheritdoc}
+  *
+  * @see hook_bootstrap_colorize_text_alter()
+  */
+
+function bootstrap_rubik_bootstrap_colorize_text_alter(array &$texts) {
+	$texts['matches'][t('Set as default')->render()] = 'success';
+}
